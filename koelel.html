@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAMBDA ONLINE STUDIES</title>
+        <link rel="stylesheet"  href="./KOELEL STYLE.css">
+        <link rel="icon" href="./koelel forces academy logo.png">
+        <script src="./script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="/">School Portal</a>
+          <a href="#contact">Links</a>
+          <a href="#about">Subjects</a>
+          <a  class="signup" href="#Signup" >Sign up</a>
+          <a button onclick="document.getElementById('id01').style.display='block'" style="margin-left: -10px;cursor: pointer;;text-decoration: none;">Log in</a>
+         <!-- The Modal -->
+<div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+  class="close" title="Close Modal">&times;</span>
+  
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="" >
+      <div class="imgcontainer">
+        <img src="LAMBDA STUDIES CENTER (1).png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required minlength="8">
+  
+        <button onclick="login()" type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+      
+
+
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div> 
+        </div>
+        
+        <div style="padding-left:16px">
+          
+         
+        </div>
+
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Books</a>
+            <a href="#">Zeraki</a>
+            <a href="#">Test papers</a>
+            <a href="#">Test your self</a>
+            <a href="#">More</a>
+            <a button onclick="logout()" style="cursor: pointer; text-decoration: none;" >Log out</a>
+          </div>
+          
+          <div id="main">
+            
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+          </div>
+          
+      
+
+          <div class="header">
+            <h2></h2>
+            <img src="LAMBDA STUDIES CENTER (1).png" alt="koelel forces academy" style="margin-left: 20px;margin-top: -120px;" name="top">
+          </div>
+          
+          <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+                <u><strong><h2>Welcome to the website</h2></strong></u>
+                <h5>Title description, Dec 7, 2024</h5>
+                
+                <p>About</p>
+                <p>Welcome to Lambda Studies Center , a website that creates a good enviroment for studies and provides enough materials used for revision. Lambda Studies Center provides many facilities example: Learning Materials Used in School,
+                  Exam test papers and marking schemmes. We have acces to diffenrent links portals for different studies website for example Zeraki Learning , Elimu plus and many more.....<br/>
+                  All that is required for you is to sign up and log in to the website  and monitor your study prodress in your account
+                </p>
+              </div>
+              <div class="card">
+                
+                
+                
+
+                <div class="container">
+                  <img src="C:\Users\X_CLUSIVE 3\AppData\Local\Temp\Rar$EXa13604.45867\www.w3schools.com\w3images\notebook.jpg" alt="Notebook"  style="width: 1000px;height: 400px; margin-left: -310px;">
+                  
+                  <div class="content"style="
+                  padding-left: 100px;
+                  " >
+                    <h1>Education</h1>
+                    <p>Education is the key to succes. Ones future is determined by ones knowlage and Education</p>
+                  </div>
+                </div>
+                
+
+
+
+
+
+              
+
+
+                <h2 style="text-align:center">Our Team</h2>
+                <div class="row">
+                  <div class="column">
+                    <div class="card">
+                      <img src="C:\Users\X_CLUSIVE 3\Desktop\koelel forces academy logo.png" alt="Jane" style="width:100%">
+                      <div class="container">
+                        <h2>John Agostinelli</h2>
+                        <p class="title">CEO & Founder</p>
+                        <p>Founder of the group,Mastermined and idearal designer, professional web developer.<br/>
+                        For more infomtion contact me via 0112497110<br/>
+                      Or reach me via my email at:</p>
+                        <p>agostinellimbugua7@gmail.com</p>
+                        <p><button class="button"><a href="mailto: agostinellimbugua7@gmail.com">Contact</a></button></p>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="column">
+                    <div class="card">
+                      <img src="C:\Users\X_CLUSIVE 3\Desktop\nana\0492290abaf29d47f9e144e868749382.jpg" alt="Mike" style="width:84%">
+                      <div class="container">
+                        <h2>Shawn Mwangi</h2>
+                        <p class="title">Art Director</p>
+                        <p>Profesional web programmer and art design <br/>
+                        For more info, reach me via 0762921165<br/>
+                        or email me at:
+                        
+                        </p>
+                        
+                        <p>shawnmwask1234@gmail.com</p>
+                        <p><button class="button"><a href="mailto:shawnmwask1234@gmail.com">Contact</a></button></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="column">
+                    <div class="card">
+                      <img src="C:\Users\X_CLUSIVE 3\Desktop\nana\123\983fd6fccb106f86207030013f48aa51.jpg" alt="John" style="width:100%" height="411.688">
+                      <div class="container">
+                        <h2>Lambda Center</h2>
+                        <p class="title">Designer</p>
+                        <p>For more information, problem or complain you can contact us via 0112497110<br/>
+                          or share your reports using our email
+                        
+                        </p>
+                        <p>Lambdacenter1@gmail.org</p>
+                        <p><button class="button">Contact</button></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+
+
+
+
+
+              </div>
+            </div>
+            <div class="rightcolumn">
+              <div class="card">
+                <h2>About The Website</h2>
+                <div class="fakeimg" style="height:100px;">Image</div>
+                <p>The website is purposely dedicated to Secondary level students.Subjects such as Mathematics, English, Kiswahili, Chemistry ,Biology ,physics ,C.R.E ,Computer studies, I.R.E ,Home science, French, Agriculture and many more are posted here </p>
+              </div>
+
+
+
+
+              
+              
+
+
+
+              <div class="card">
+                <h3>Popular subjects available in the website currently</h3>
+                <button> <div class="">Mathematics</div><br></button>
+                <button> <div class="">English</div><br></button>
+                <button> <div class="">Kiswahili</div><br></button>
+                <button> <div class="">Chemistry</div><br>
+                <button> <div class="">Physics</div><br></button>
+                <button> <div class="">Biology</div><br></button>
+                <button> <div class="fg">CRE</div><br></button>
+                <button> <div class="">History</div><br></button>
+                <button> <div class="">Geography</div><br></button>
+                <button> <div class="">Computer studies</div><br></button>
+                <button> <div class="">Home Science</div><br></button>
+                <button> <div class="">Agriculture</div><br></button>
+                <button><div class="">French</div><br></button>
+                      <button>  <div class="fakeim">Business Studies</div><br>
+              </div>
+              <div class="card">
+               
+              </div>
+            </div>
+          </div>
+          
+          
+          
+
+         
+
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="https://www.w3schools.com/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+  <button><A href="'#top">topp</A></button>
+</div><button><A href="'#top">topp</A></button>
+
+
+
+
+        
+<div class="about-section">
+  <h1>More About Us</h1>
+  <p>Lambda Studies Center is an optimized website for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+    Copyright 1999-2020 by Refsnes Data. All Rights Reserved.
+    
+    
+    </p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        
+        </body>
+</html>
